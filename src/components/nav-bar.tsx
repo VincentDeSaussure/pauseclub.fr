@@ -4,13 +4,13 @@ import Image from 'next/image';
 import logo from '../../public/logo.svg';
 
 export function NavBar() {
-  return <nav className={styles.main}>
+  return <nav className={[styles.main, styles.container].join(' ')}>
     <Link href={'/'}>
-      <Image src={logo} alt="logo pause club" width={1000}/>
+      <Image src={logo} alt="logo pause club" width={'220'}/>
     </Link>
-    <ul>
+    <ul className={styles.menu}>
       <li><Link href={'/cgu'}>CGU</Link></li>
-      <li><Link href={'/contact'}>Contact</Link></li>
+      <li><Link href={'/contact'}>CONTACT</Link></li>
     </ul>
   </nav>;
 }
