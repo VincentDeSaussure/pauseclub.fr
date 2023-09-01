@@ -1,7 +1,16 @@
 body {
     font-size: 12px;
+    color: #42210B;
 }
 
 p {
     margin: 0;
+}
+
+fieldset{
+    border: none;
+}
+
+h1 {
+    font-size: 1rem;
 }
