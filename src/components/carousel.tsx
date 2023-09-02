@@ -12,8 +12,8 @@ export function Carousel() {
       <Image src={slide2} alt={'slide 2 - Dessin pause club 2 - Nicoli Charlotte'} height={320}/>
       <Image src={slide4} alt={'slide 4 - Dessin pause club 4 - Nicoli Charlotte'} height={320}/>
       <Image src={slide3} alt={'slide 3 - Dessin pause club 3 - Nicoli Charlotte'} height={320}/>
-      <Image src={slide5} alt={'slide 5 - Dessin pause club 5 - Nicoli Charlotte'} height={320}/>
       <Image src={slide6} alt={'slide 6 - Dessin pause club 6 - Nicoli Charlotte'} height={320}/>
+      <Image src={slide5} alt={'slide 5 - Dessin pause club 5 - Nicoli Charlotte'} height={320}/>
     </div>
   </section>;
 }

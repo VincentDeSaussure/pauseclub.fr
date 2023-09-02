@@ -48,7 +48,7 @@ export function DonnezVotreAvisFormulaire() {
   return <section>
     <form className={styles.form}>
       <h1>VOTRE AVIS COMPTE, <br/>
-        DONNEZ NOUS UNE NOTE !</h1>
+        DONNEZ-NOUS UNE NOTE !</h1>
       <Note />
       <textarea className={styles.avis} cols={30} rows={10} placeholder={'Partagez vos réflexions'}></textarea>
       <button className={[styles.soumettre].join(' ')} type={'submit'}>ENVOYER</button>
