@@ -10,7 +10,7 @@ export function NavBar() {
     </Link>
     <ul className={styles.menu}>
       <li><Link href={'/cgu'}>CGU</Link></li>
-      <li><Link href={'/contact'}>CONTACT</Link></li>
+      <li><Link href={'https://nicolicharlotte.com/home'}>CONTACT</Link></li>
     </ul>
   </nav>;
 }

@@ -29,10 +29,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0.5rem;
 }
 
 .soumettre {
     margin-top: 0.5rem;
+    margin-bottom: 3rem;
     font-weight: bold;
     padding: 0.5rem;
 }
