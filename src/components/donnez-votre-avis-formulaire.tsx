@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import styles from './donnez-votre-avis-formulaire.module.css'
 import Image from 'next/image';
+import etoileVide1 from '../../public/etoiles/etoile-1-vide.svg'
+import etoilePleine1 from '../../public/etoiles/etoile-1-pleine.svg'
 import etoileVide2 from '../../public/etoiles/etoile-2-vide.svg'
 import etoilePleine2 from '../../public/etoiles/etoile-2-pleine.svg'
 import etoileVide3 from '../../public/etoiles/etoile-3-vide.svg'
@@ -24,7 +26,7 @@ function Note() {
   };
 
   const etoiles = [
-    { value: 1, dessin: note > 0 ? etoilePleine2 : etoileVide2 },
+    { value: 1, dessin: note > 0 ? etoilePleine1 : etoileVide1 },
     { value: 2, dessin: note > 1 ? etoilePleine2 : etoileVide2 },
     { value: 3, dessin: note > 2 ? etoilePleine3 : etoileVide3 },
     { value: 4, dessin: note > 3 ? etoilePleine4 : etoileVide4 },
